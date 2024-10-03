@@ -1,3 +1,4 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AfreenInnovates/DataScience-MachineLearning-Projects/blob/main/Covid-19%20Detection/Covid-19%20Detection/covid19-detection-pytorch.ipynb)
 
 # COVID-19 Detection Using PyTorch
 
