@@ -10,7 +10,18 @@ In today's fast-paced recruitment world, manually reviewing thousands of resumes
 
 This project uses **K-Nearest Neighbors (KNN)** classifiers trained on resume data. The application takes PDF or text-based resumes as input and predicts the category of the resume based on the job role the resume fits best.
 
-### Key Features
+## Video Demo
+
+<div>
+    <a href="https://www.loom.com/share/ea2094576f7445d0926cba8fb4e5a2d7">
+      <p>Resume Classifier - Demo - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/ea2094576f7445d0926cba8fb4e5a2d7">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ea2094576f7445d0926cba8fb4e5a2d7-e8171c4cd40a1aaa-full-play.gif">
+    </a>
+  </div>
+
+## Key Features
 
 - **Upload PDF or Text resumes**: Users can upload resumes in PDF or TXT format.
 - **Model Selection**: Users can select between two models:
