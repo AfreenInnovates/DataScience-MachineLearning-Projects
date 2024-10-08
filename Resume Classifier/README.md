@@ -14,10 +14,10 @@ This project uses **K-Nearest Neighbors (KNN)** classifiers trained on resume da
 
 <div>
     <a href="https://www.loom.com/share/ea2094576f7445d0926cba8fb4e5a2d7">
-      <p>Resume Classifier - Demo - Watch Video</p>
+      <p>Resume Classifier - Demo</p>
     </a>
     <a href="https://www.loom.com/share/ea2094576f7445d0926cba8fb4e5a2d7">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/ea2094576f7445d0926cba8fb4e5a2d7-e8171c4cd40a1aaa-full-play.gif">
+      <img style="min-width:1000px;" src="https://cdn.loom.com/sessions/thumbnails/ea2094576f7445d0926cba8fb4e5a2d7-e8171c4cd40a1aaa-full-play.gif">
     </a>
   </div>
 
