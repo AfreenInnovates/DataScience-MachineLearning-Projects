@@ -42,7 +42,7 @@ Throughout the training process, the model's performance is evaluated on both th
 - **Training Loss**: The loss decreases consistently as the model learns from the data.
 - **Training Accuracy**: 
   - The model achieves high accuracy during training, indicating that it is effectively learning patterns in the dataset.
-  - At the end of training, the training accuracy reaches **100%**, indicating strong learning on the training data.
+  - At the end of training, the training accuracy reaches **~98%**, indicating strong learning on the training data.
 
 ## **Validation Accuracy**
 
@@ -50,7 +50,7 @@ Validation accuracy is a key indicator of how well the model generalizes to unse
 
 - **Validation Loss**: Similar to the training loss, the validation loss decreases during the early epochs but may fluctuate slightly as the model continues to train.
 - **Validation Accuracy**: 
-  - The model's validation accuracy starts at around **85%** in the first few epochs.
+  - The model's validation accuracy starts at around **88%** in the first few epochs.
   - After completing training, the validation accuracy stabilizes at around **98%**, indicating good generalization without overfitting.
 
 ---
