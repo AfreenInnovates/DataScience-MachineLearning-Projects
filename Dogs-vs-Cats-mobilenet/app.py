@@ -14,7 +14,7 @@ model = models.mobilenet_v2(weights=weights)
 model.classifier[1] = nn.Linear(model.last_channel, 2)
 model = model.to(device)
 
-model_path = 'mobilenet_dogs_vs_cats.pth'
+model_path = 'Dogs-vs-Cats-mobilenet/mobilenet_dogs_vs_cats.pth'
 
 if os.path.exists(model_path):
     model.load_state_dict(torch.load(model_path, map_location=device))
