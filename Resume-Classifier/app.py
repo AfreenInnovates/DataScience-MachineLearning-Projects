@@ -4,15 +4,15 @@ import re
 import PyPDF2  # For extracting text from PDFs
 
 # Load the pre-trained models and vectorizers
-knn_model_cv = pickle.load(open("knn_model_cv.pkl", "rb"))
-knn_model_tf = pickle.load(open("knn_model_tf.pkl", "rb"))
+knn_model_cv = pickle.load(open("Resume-Classifier/knn_model_cv.pkl", "rb"))
+knn_model_tf = pickle.load(open("Resume-Classifier/knn_model_tf.pkl", "rb"))
 
 # Load the Label Encoder for categories
-category_le = pickle.load(open("category_le.pkl", "rb"))
+category_le = pickle.load(open("Resume-Classifier/category_le.pkl", "rb"))
 
 # Load the vectorizers
-cv = pickle.load(open("count_vectorizer.pkl", "rb"))
-tf = pickle.load(open("tfidf_vectorizer.pkl", "rb"))
+cv = pickle.load(open("Resume-Classifier/count_vectorizer.pkl", "rb"))
+tf = pickle.load(open("Resume-Classifier/tfidf_vectorizer.pkl", "rb"))
 
 category_mapping = {
     0: "Advocate", 1: "Arts", 2: "Automation Testing", 3: "Blockchain",
