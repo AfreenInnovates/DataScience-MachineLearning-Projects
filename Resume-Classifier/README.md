@@ -9,6 +9,7 @@ In today's fast-paced recruitment world, manually reviewing thousands of resumes
 ## Project Overview
 
 This project uses **K-Nearest Neighbors (KNN)** classifiers trained on resume data. The application takes PDF or text-based resumes as input and predicts the category of the resume based on the job role the resume fits best.
+Try the website here: [https://classify-resume.streamlit.app/](https://classify-resume.streamlit.app/)
 
 ## Video Demo
 
