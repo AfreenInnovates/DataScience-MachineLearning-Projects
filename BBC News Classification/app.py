@@ -5,13 +5,13 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load the model
-loaded_model = load_model('my_model.keras')
+loaded_model = load_model('BBC News Classification/my_model.keras')
 
 # Load the tokenizers
-with open('tokenizer.pkl', 'rb') as f:
+with open('BBC News Classification/tokenizer.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
 
-with open('label_tokenizer.pkl', 'rb') as f:
+with open('BBC News Classification/label_tokenizer.pkl', 'rb') as f:
     label_tokenizer = pickle.load(f)
 
 # Define parameters
